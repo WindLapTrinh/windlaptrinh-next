@@ -556,16 +556,23 @@ ul.primary-button li a.btn-menu {
   background: #0097eb;
   color: #fff;
 }
-.app_nen_tang .title_he_sinh_thai {
+.app_nen_tang .title-solution-ecommerce {
   font-weight: 500;
   font-size: 18px;
-  color: #f3648c;
+  color: #0097eb;
   text-align: center;
 }
 .app_nen_tang .tab-content {
-  background: #f1f1f1;
+  background: #ffffff;
   border-radius: 10px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
 }
+.image-desgin-item{
+height: 420px;
+}
+
 .app_nen_tang .group_content_app .content p {
   display: flex;
   align-items: center;

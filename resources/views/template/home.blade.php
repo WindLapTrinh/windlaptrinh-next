@@ -400,51 +400,37 @@
 
 
                     <div class="col-lg-3 thumbnail_app">
-                        <img src="default/images/template_new/he_sinh_thai_cong_ty.png" alt="">
-                        <p class="title_he_sinh_thai">Hệ sinh thái CNV Loyalty</p>
+                        <img src={{asset("./images/storyset/data.png")}} alt="">
+                        <p class="title-solution-ecommerce">Giải pháp về thương mại điện tử</p>
                     </div>
                     <div class="col-lg-9">
                         <div class="tab-content">
                             <div class="item_tab tab-pane fade active show" id="tab1">
                                 <div class="row">
                                     <div class="col-lg-5 thumbnail_app_img">
-                                        <img class="lazy" data-src="/default/images/template_new/hinhanh_nen_tang.png"
+                                        <img class="lazy" data-src={{asset("./images/solution/desgin-website.png")}}
                                             alt="">
                                     </div>
                                     <div class="col-lg-7 group_content_app">
                                         <div class="content">
                                             <p><img class="lazy"
-                                                    data-src="/default/images/template_new/like_app_nghanh.png"
-                                                    alt=""> Là nơi để khách hàng và doanh nghiệp tương tác
-                                                với nhau
-                                                mà không phải thông qua một nền tảng thứ 3 nào khác.</p>
+                                                    data-src={{asset("./images/icon/check.png")}}
+                                                    alt="">Ứng dụng được thiết kế với khả năng mở rộng, dễ dàng tích hợp thêm các tính năng mới và phù hợp với sự phát triển của doanh nghiệp trong tương lai.</p>
                                             <p><img class="lazy"
-                                                    data-src="/default/images/template_new/like_app_nghanh.png"
-                                                    alt=""> App được đặt tên theo Brandname của doanh
-                                                nghiệp, tạo sự
-                                                khác biệt với các thương hiệu đối thủ khác.</p>
+                                                    data-src={{asset("./images/icon/check.png")}}
+                                                    alt=""> Đảm bảo tốc độ nhanh và ổn định, mang đến trải nghiệm liền mạch dù trên website hay Mini App.</p>
                                             <p><img class="lazy"
-                                                    data-src="/default/images/template_new/like_app_nghanh.png"
-                                                    alt=""> Khách hàng có thể quản lý được lịch sử mua
-                                                hàng, điểm
-                                                tích luỹ, được cập nhập các chương trình khuyến mãi, thông báo của
-                                                doanh nghiệp...</p>
+                                                    data-src={{asset("./images/icon/check.png")}}
+                                                    alt="">  Ứng dụng được cá nhân hóa theo phong cách thương hiệu, giúp xây dựng sự nhận diện và gắn kết với khách hàng..</p>
                                             <p><img class="lazy"
-                                                    data-src="/default/images/template_new/like_app_nghanh.png"
-                                                    alt=""> Nhận feedback từ khách hàng một cách nhanh
-                                                chóng, hạn
-                                                chế tạo ra bad review khó khắc phục như trước đây.</p>
+                                                    data-src={{asset("./images/icon/check.png")}}
+                                                    alt=""> Cung cấp tính năng như đặt hàng, lịch hẹn, theo dõi ưu đãi, và quản lý tài khoản trực tiếp trên ứng dụng.</p>
                                             <p><img class="lazy"
-                                                    data-src="/default/images/template_new/like_app_nghanh.png"
-                                                    alt=""> Nhờ tính năng Call-in-app, khách hàng có thể
-                                                liên hệ
-                                                trực tiếp đến bộ phận chăm sóc khách hàng giúp tiết kiệm được chi
-                                                phí hạ tầng call center.</p>
+                                                    data-src={{asset("./images/icon/check.png")}}
+                                                    alt=""> Hỗ trợ doanh nghiệp cập nhật thông tin và theo dõi lịch sử khách hàng, giúp quản lý dễ dàng và chính xác.</p>
                                             <p><img class="lazy"
-                                                    data-src="/default/images/template_new/like_app_nghanh.png"
-                                                    alt=""> Tăng sự trải nghiệm, tạo sự yêu thích, dẫn đến
-                                                sự trung
-                                                thành một cách chủ động.</p>
+                                                    data-src={{asset("./images/icon/check.png")}}
+                                                    alt=""> Thông tin khách hàng được bảo vệ tối đa, giúp người dùng yên tâm khi sử dụng dịch vụ và giao dịch.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -453,31 +439,31 @@
                             <div class="item_tab tab-pane fade" id="tab2">
                                 <div class="row">
                                     <div class="col-lg-5 thumbnail_app_img">
-                                        <img src="default/images/template_new/quan_ly_book.png" alt="">
+                                        <img class="image-desgin-item" src={{asset("./images/solution/desgin-app.png")}} alt="">
                                     </div>
                                     <div class="col-lg-7 group_content_app">
                                         <div class="content">
                                             <p><img class="lazy"
-                                                    data-src="/default/images/template_new/like_app_nghanh.png"
+                                                    data-src={{asset("./images/icon/check.png")}}
                                                     alt=""> Nhận thông tin đặt lịch, đặt hàng nhanh chóng
                                                 từ khách
                                                 hàng</p>
                                             <p><img class="lazy"
-                                                    data-src="/default/images/template_new/like_app_nghanh.png"
+                                                    data-src={{asset("./images/icon/check.png")}}
                                                     alt=""> Nhận thông báo khi có nhiệm vụ mới cần xử lý
                                             </p>
                                             <p><img class="lazy"
-                                                    data-src="/default/images/template_new/like_app_nghanh.png"
+                                                    data-src={{asset("./images/icon/check.png")}}
                                                     alt=""> Thực hiện nhiệm vụ, chụp hình trạng thái khách,
                                                 trước và
                                                 sau khi phục vụ </p>
                                             <p><img class="lazy"
-                                                    data-src="/default/images/template_new/like_app_nghanh.png"
+                                                    data-src={{asset("./images/icon/check.png")}}
                                                     alt=""> Quản lý, phân loại, xem báo cáo danh sách khách
                                                 hàng đã/
                                                 đang/ sẽ phục vụ, từ đó đưa ra những quyết định phù hợp.</p>
                                             <p><img class="lazy"
-                                                    data-src="/default/images/template_new/like_app_nghanh.png"
+                                                    data-src={{asset("./images/icon/check.png")}}
                                                     alt=""> Đơn giản hoá, tiết kiệm thời gian các công việc
                                                 liên
                                                 quan đến thống kê, báo cáo, ... giúp việc quy trình vận hành tại chi
