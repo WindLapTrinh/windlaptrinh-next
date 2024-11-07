@@ -383,11 +383,11 @@
                 <div class="col-lg-9 offset-lg-3 group_tab_app_nen_tang">
                     <ul class="nav_app nav">
                         <li>
-                            <a data-toggle="tab" class="smooth active" href="#tab1" title="">Website</a>
+                            <a data-toggle="tab" class="smooth active" href="#tab1" title="">Website, Mini App</a>
                         </li>
 
                         <li>
-                            <a data-toggle="tab" class="smooth " href="#tab2" title="">Mini App</a>
+                            <a data-toggle="tab" class="smooth " href="#tab2" title="">Brand Tech</a>
                         </li>
 
                         <li>
@@ -439,7 +439,7 @@
                             <div class="item_tab tab-pane fade" id="tab2">
                                 <div class="row">
                                     <div class="col-lg-5 thumbnail_app_img">
-                                        <img class="image-desgin-item" src={{asset("./images/solution/desgin-app.png")}} alt="">
+                                        <img class="image-desgin-item" src={{asset("./images/solution/brand-tech.png")}} alt="">
                                     </div>
                                     <div class="col-lg-7 group_content_app">
                                         <div class="content">
