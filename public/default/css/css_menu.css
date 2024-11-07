@@ -1,0 +1,14 @@
+header {
+  z-index: 999;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  padding: 10px;
+  width: 100% !important;
+  background: #0097eb !important;
+}
+header.fixed {
+  background: #0097eb !important;
+}

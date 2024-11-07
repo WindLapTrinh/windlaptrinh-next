@@ -1,0 +1,306 @@
+.employee_title {
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+.number_employee {
+  color: #fd475d;
+  font-weight: 600;
+}
+.slider-handle {
+  position: absolute;
+  top: -18px;
+  width: 59px;
+  height: 59px;
+  background-color: transparent;
+  background: url(../images/heart.png) no-repeat;
+}
+.slider-selection {
+  background-image: none;
+  background-color: #d02338;
+}
+.slider .tooltip.top {
+  opacity: 1;
+  margin-top: 26px !important;
+  margin-left: 18px !important;
+}
+.tooltip.tooltip-min {
+  opacity: 0 !important;
+}
+.tooltip-inner {
+  background: transparent !important;
+  color: #21414f !important;
+  font-size: 20px;
+  font-weight: 600;
+}
+.tooltip {
+  z-index: 1 !important;
+}
+.container_data {
+  margin-top: 80px;
+}
+.container_data input[type="checkbox"] + label {
+  display: block;
+  margin: 0.2em;
+  cursor: pointer;
+  padding: 0.2em;
+  color: #3d5067;
+  font-weight: 600;
+}
+.container_data input[type="checkbox"] {
+  display: none;
+}
+.container_data input[type="checkbox"] + label:before {
+  content: "";
+  border: 1px solid #898989;
+  border-radius: 5px;
+  margin-right: 10px;
+  display: inline-block;
+  background: #efeeee;
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  vertical-align: middle;
+  line-height: 28px;
+  text-align: center;
+  color: transparent;
+  transition: 0.2s;
+}
+.container_data input[type="checkbox"] + label:active:before {
+  transform: scale(0);
+}
+.container_data input[type="checkbox"]:checked + label:before {
+  content: url("../images/heart_check.png");
+  background-color: #fd475d;
+  border-color: #fd475d;
+  color: #fff;
+}
+.container_data input[type="checkbox"]:disabled + label:before {
+  transform: scale(1);
+  border-color: #aaa;
+}
+.container_data input[type="checkbox"]:checked:disabled + label:before {
+  content: url("../images/heart_check.png");
+  transform: scale(1);
+  background-color: #acacac;
+  border-color: #acacac;
+}
+.container_data input.stop_check + label:before {
+  content: url("../images/stop_check.png") !important;
+  transform: scale(1);
+  background-color: #fff !important;
+  border-color: #acacac;
+}
+.content_box {
+  display: flex;
+  align-items: center;
+}
+.box_name {
+  flex: 0 0 66.6666666667%;
+  max-width: 66.6666666667%;
+}
+.box_price {
+  text-align: right;
+  flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%;
+  font-size: 16px;
+}
+.content_box:not(:first-child) {
+  margin-top: 15px;
+}
+.category_module {
+  margin-left: 5px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #f04a4f;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.title_show_data {
+  display: block;
+  width: 100%;
+  font-size: 22px;
+  color: #21414f;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.box_name_data,
+.box_price_data {
+  color: #3d5067;
+  font-weight: 600;
+}
+.box_price_data .note {
+  font-size: 10px;
+}
+.content_box_data {
+  margin-top: 25px !important;
+}
+.parent_box_show {
+  border: 1px solid #d7d7d7;
+  padding: 0 15px 15px;
+  background: #fffafa;
+}
+.parent_box_show:not(:first-child) {
+  margin-top: 20px;
+}
+.content_box_data_total {
+  border-top: 1px solid #d7d7d7;
+  padding-top: 15px;
+}
+.box_total_title_data {
+  font-size: 20px;
+}
+.box_total_price_user_data {
+  font-size: 18px;
+}
+.box_total_price_first {
+  border: 1px solid #21414f;
+  background: #21414f;
+}
+.box_total_price_first .box_name_data,
+.box_total_price_first .box_price {
+  color: #fff;
+}
+.box_total_price_first .content_box_data {
+  margin-top: 15px !important;
+}
+.box_total_price_payment .box_name {
+  color: #fff;
+  font-size: 23px;
+}
+.box_total_price_payment .box_price {
+  color: #fff;
+  font-size: 23px;
+}
+.box_total_price_payment {
+  background: #21414f;
+}
+.content_box_data_safe .box_name {
+  color: #21414f;
+  font-size: 17px;
+}
+.parent_box_show_sale_mod .box_name,
+.parent_box_show_sale_mod .box_price {
+  font-size: 12px;
+}
+.contact_price {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 40px;
+  border-radius: 5px;
+  color: #fff;
+  background: #fd475d;
+  width: 215px;
+  box-shadow: 0 2px 2.5px rgba(0, 0, 0, 0.2);
+  margin-right: 20px;
+  font-size: 17px;
+}
+.send_file {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 40px;
+  border-radius: 5px;
+  border: 1px solid #fd475d;
+  width: 250px;
+  color: #fd475d;
+  background: #fff;
+  font-size: 17px;
+  box-shadow: 0 2px 2.5px rgba(0, 0, 0, 0.2);
+}
+.contact_price:active,
+.contact_price:focus {
+  color: #fff;
+}
+.btn_popup {
+  margin: 0 auto;
+  text-align: center;
+}
+.code_save {
+  border: 1px solid #e6e2e3;
+}
+.remove_padding_left {
+  padding-left: 0;
+}
+.remove_padding_right {
+  padding-right: 0;
+}
+.remove_padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+.group_content_price_list_tab {
+  margin: 20px 0;
+}
+.group_content_price_list_tab .icon_arrow {
+  float: right;
+  color: #f3648c;
+  font-size: 18px;
+}
+.group_content_price_list_tab h5 {
+  color: #f3648c;
+  font-weight: 700;
+  font-size: 18px;
+}
+.group_content_price_list_tab .header-title-list-tab {
+  background: #fff;
+}
+.group_content_price_list_tab .description_price_tab {
+  color: #000;
+}
+.group_content_price_list_tab .child_title {
+  color: #f3648c;
+}
+.content_box .box_name label {
+  display: flex !important;
+  align-items: center;
+}
+.group_child_content_tab:not(:first-child) {
+  margin-top: 20px;
+}
+@media screen and (max-width: 991px) {
+  .box_total_price_payment .box_price,
+  .box_total_price_payment .box_name {
+    font-size: 17px;
+  }
+  .contact_price {
+    width: 250px;
+    margin-right: 0;
+  }
+}
+.box_price_bus {
+  text-align: right;
+  flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%;
+  font-size: 16px;
+}
+.box_name_bus {
+  flex: 0 0 66.6666666667%;
+  max-width: 66.6666666667%;
+}
+.box_name_data_bus {
+  color: #fff;
+  font-weight: 600;
+}
+.box_name_bus.box_name_data_bus {
+  color: #3d5067;
+}
+.box_name_bus.box_name_data_bus.f2 {
+  color: #fff;
+  font-weight: 600;
+}
+.box_name_bus.box_name_data_bus.f1 {
+  color: #fff;
+  font-size: 23px;
+}
+.box_price_first_bus {
+  color: #fff;
+  font-weight: 600;
+}
+.content_box_bus {
+  display: flex;
+}
+.slider .tooltip-min.top,
+.slider .tooltip-max.top {
+  display: none;
+}

@@ -1,0 +1,45 @@
+/* setting  */
+
+/* end setting  */
+
+/* home  */
+.event_banner_area {
+    background: #0097eb;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-size: 100% 100% !important;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .event_banner_area .parallax-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 105%;
+    z-index: -1;
+    opacity: 0.2;
+  }
+/* end home  */
+
+/* reponsive  */
+@media (min-width: 992px) {
+    header.fixed .header-bottom {
+      display: initial;
+    }
+    header.fixed {
+      background: #0097eb !important;
+      padding: 20px;
+    }
+  }
+/* end reponsive  */

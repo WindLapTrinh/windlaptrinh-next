@@ -1,0 +1,433 @@
+/* setting bootstrap */
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.card {
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Initial box-shadow */
+}
+.modal-dialog {
+    max-width: 600px; /* Giới hạn chiều rộng của modal */
+    margin: 1.75rem auto;
+}
+
+.modal-content {
+    height: 80vh; /* Chiều cao tối đa của modal */
+    display: flex;
+    flex-direction: column;
+    width: 114vh;
+}
+
+.modal-body {
+    flex: 1 1 auto;
+    overflow-y: auto; /* Cho phép nội dung bên trong cuộn dọc nếu quá dài */
+    max-height: 60vh; /* Giới hạn chiều cao của nội dung trong modal */
+}
+
+.modal-footer {
+    flex-shrink: 0;
+}
+
+.modal-header {
+    background-color: #4e73df;
+    color: white;
+}
+.close-model {
+    color: white !important;
+}
+.btn-submit {
+    border-radius: 3px !important;
+}
+.text-setting {
+    color: #4e73df !important;
+    font-weight: 500;
+}
+ /* css paginate  */
+ .page-link{
+    font-size: 18px;
+    color: #000000;
+ }
+ .page-link:hover{
+    color: white;
+    background-color: #4e73df;
+ }
+ .page-item.active .page-link {
+    background-color: #4e73df !important;
+    border-color: #4e73df !important;
+    font-size: 18px;
+ }
+ .page-item.disabled .page-link {
+    color: #4e73df;
+    font-weight: bold;
+    font-size: 18px;
+ }
+ /* and css paginate  */
+/* and setting  */
+/* header  */
+.info-admin {
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+    margin: 0px 13px;
+    border-bottom: 1px solid;
+}
+.logo-admin {
+    width: 50px;
+    border-radius: 8px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.icon-parent-menu {
+    margin-right: 8px;
+}
+
+.name-parent {
+    color: rgba(255, 255, 255, 0.8);
+}
+.name-parent:hover {
+    color: #ffffff !important;
+}
+a:hover {
+    text-decoration: none;
+}
+.fa-angle-right:before {
+    color: rgba(255, 255, 255, 0.8);
+}
+.brand-name {
+    color: white;
+    font-weight: 500;
+}
+.brand-name:hover {
+    color: #000000;
+    transition: 0.5s;
+}
+.dropdown-toggle {
+    color: #000000;
+}
+.dropdown-toggle:hover {
+    color: #000000;
+    border: unset;
+    transition: 0.5s;
+    border-color: unset;
+}
+/* end header  */
+
+.topnav .navbar-brand {
+    width: 15rem;
+    padding: 16px 10px;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.navbar-brand {
+    background-color: #2947a0 !important;
+}
+.topnav {
+    padding-left: 0;
+    z-index: 1039;
+}
+
+#sidebar-toggle {
+    outline: none;
+    border: 0;
+    background-color: transparent;
+}
+
+.plus-icon {
+    font-size: 25px;
+    color: #8f8f8f;
+}
+
+.nav-right {
+    flex: 1;
+    justify-content: space-between;
+    display: flex;
+    padding: 16px 0px;
+}
+
+#sidebar {
+    width: 15rem;
+    background-color: #4e73df;
+    background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    z-index: 500;
+    position: fixed;
+    padding-top: 14px;
+    top: 0px;
+    left: 0;
+    z-index: 1500;
+}
+.name-admin {
+    text-align: center;
+}
+.container-fluid {
+    background-color: white;
+}
+/* dasboard  */
+.func-dasboard-success {
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Initial box-shadow */
+    border-left: 5px solid #2665c3;
+}
+.func-dasboard-processing {
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Initial box-shadow */
+    border-left: 5px solid #dc3545;
+}
+.func-dasboard-sales {
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Initial box-shadow */
+    border-left: 5px solid #28a745;
+}
+.func-dasboard-cancel {
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Initial box-shadow */
+    border-left: 5px solid black;
+}
+.func-title-processing {
+    font-weight: 500;
+    color: #dc3545;
+}
+.func-title-success {
+    font-weight: 500;
+    color: #2665c3;
+}
+.func-title-sales {
+    font-weight: 500;
+    color: #28a745;
+}
+.func-title-cancel {
+    font-weight: 500;
+    color: black;
+}
+/* end dasboard  */
+#wp-content {
+    flex: auto;
+    /* height: calc(100vh - 58px); */
+    min-height: 100vh;
+    padding-top: 3.625rem;
+    padding-left: 15rem;
+}
+
+#content {
+    padding-top: 31px;
+    padding-bottom: 20px;
+    height: 100%;
+}
+
+#content .card-header {
+    text-transform: uppercase;
+}
+
+.nav-fixed .topnav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+ul#sidebar-menu * {
+    list-style: none;
+    padding-left: 0;
+}
+
+#sidebar-menu {
+    padding: 20px 15px;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 0rem;
+    position: relative;
+}
+
+.nav-link.active a {
+    color: #0061f2 !important;
+}
+.nav-link:hover li a {
+    color: #0061f2;
+}
+
+.nav-link > li > a > i {
+    color: #787272;
+    font-size: 18px;
+}
+
+.nav-link .arrow {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+#sidebar-menu .sub-menu {
+    display: none;
+    background: white;
+    margin: 10px 7px;
+    border-radius: 8px;
+}
+
+#sidebar-menu .sub-menu li a {
+    display: block;
+    padding: 6px 20px;
+    margin: 0px 10px;
+    color: #000000;
+}
+#sidebar-menu .sub-menu li a:hover {
+    background-color: #e7e7e7;
+    border-radius: 8px;
+}
+.chilldent-menu-top {
+    padding-top: 10px;
+}
+.chilldent-menu-bottom {
+    padding-bottom: 10px;
+}
+#page-body {
+    background-color: #e5e9f0;
+}
+
+.table tr td {
+    vertical-align: middle;
+}
+
+.table-checkall input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.analytic a {
+    position: relative;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+/* form seach header admin  */
+.input-group {
+    width: 25rem !important;
+    margin-left: 20px;
+}
+.input-group-prepend,
+.input-group-append {
+    display: flex;
+}
+
+.input-group-prepend .btn,
+.input-group-append .btn {
+    position: relative;
+    z-index: 2;
+}
+
+.input-group-prepend .btn:focus,
+.input-group-append .btn:focus {
+    z-index: 3;
+}
+.sidebar .nav-item .nav-link .badge-counter,
+.topbar .nav-item .nav-link .badge-counter {
+    position: absolute;
+    transform: scale(0.7);
+    transform-origin: top right;
+    right: 0.25rem;
+    margin-top: -0.25rem;
+}
+/* Custom CSS for the notification badge */
+.list-notify {
+    position: relative;
+    display: inline-block;
+    color: #000000;
+    margin-right: 10px;
+}
+
+.badge-counter {
+    position: absolute;
+    top: 4px;
+    right: -8px;
+    padding: 1px 6px;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border-radius: 75%;
+    z-index: 1;
+}
+
+/* Custom styling for Alerts Center */
+.dropdown-list .dropdown-header {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: #4e73df;
+}
+
+.dropdown-item {
+    padding: 10px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.icon-circle.bg-primary {
+    background-color: #4e73df;
+}
+
+.icon-circle.bg-success {
+    background-color: #1cc88a;
+}
+
+.icon-circle.bg-warning {
+    background-color: #f6c23e;
+}
+
+/* Styling for notification text */
+.font-weight-bold {
+    font-weight: 600;
+}
+
+.small.text-gray-500 {
+    font-size: 12px;
+    color: #6c757d;
+}
+
+/* Adjust the text alignment and spacing */
+.dropdown-item.d-flex {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* end form seach header admin  */
+
+/* page role  */
+.text-header-page {
+    color: #4e73df !important;
+}
+.name-role {
+    color: #4e73df !important;
+    font-weight: bold;
+}
+.btn-primary {
+    color: white;
+    font-weight: 500;
+    background-color: #4e73df;
+}
+/* end page role  */
+
+/* post  */
+.title-post {
+    font-weight: bolder;
+    color: #4e73df !important;
+}
+/* end post  */
